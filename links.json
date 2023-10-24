@@ -1,0 +1,856 @@
+{
+  "BASICS": {
+    "Introduction": {
+      "URL": "https://developers.linkapi.solutions/docs/documentation-intro"
+    },
+    "About LinkApi": {
+      "URL": "https://developers.linkapi.solutions/docs/about-linkapi"
+    },
+    "Authentication": {
+      "URL": "https://developers.linkapi.solutions/docs/authentication"
+    }
+  },
+  "FAQ": {
+    "How to create a ticket inside LinkApi": {
+      "URL": "https://developers.linkapi.solutions/docs/frequently-asked-questions"
+    },
+    "Support tickets SLA": {
+      "URL": "https://developers.linkapi.solutions/docs/support-tickets-sla"
+    },
+    "Didn't find what you're looking for?": {
+      "URL": "https://developers.linkapi.solutions/docs/didnt-find-what-youre-looking-for"
+    }
+  },
+  "PACKAGES": {
+    "About Packages": {
+      "URL": "https://developers.linkapi.solutions/docs/about-packages"
+    },
+    "Creating a Private Component": {
+      "URL": "https://developers.linkapi.solutions/docs/creating-a-private-component",
+      "Subpages": {
+        "Creating a MongoDB Component": {
+          "URL": "https://developers.linkapi.solutions/docs/creating-a-mongodb-component"
+        },
+        "Creating a OAUTH2 Component": {
+          "URL": "https://developers.linkapi.solutions/docs/creating-a-oauth2-component"
+        },
+        "Creating a SOAP Component": {
+          "URL": "https://developers.linkapi.solutions/docs/creating-a-soap-component"
+        },
+        "Rate Limit": {
+          "URL": "https://developers.linkapi.solutions/docs/rate-limit"
+        }
+      }
+    }
+  },
+  "PROJECTS": {
+    "Automations and APIs - Projects": {
+      "URL": "https://developers.linkapi.solutions/docs/about-projects"
+    },
+    "Code Builder": {
+      "URL": "https://developers.linkapi.solutions/docs/code-builder"
+    },
+    "Commits View": {
+      "URL": "https://developers.linkapi.solutions/docs/commits-view"
+    },
+    "Project Dependencies": {
+      "URL": "https://developers.linkapi.solutions/docs/dependencies"
+    },
+    "Functions": {
+      "URL": "https://developers.linkapi.solutions/docs/functions"
+    },
+    "Jobs": {
+      "URL": "https://developers.linkapi.solutions/docs/jobs"
+    },
+    "Notifications": {
+      "URL": "https://developers.linkapi.solutions/docs/notifications"
+    },
+    "Data-Transformations": {
+      "URL": "https://developers.linkapi.solutions/docs/data-transformations"
+    }
+  },
+  "API GATEWAYS": {
+    "About API Gateways": {
+      "URL": "https://developers.linkapi.solutions/docs/about-api-management"
+    },
+    "API Resources": {
+      "URL": "https://developers.linkapi.solutions/docs/api-resources",
+      "Subpages": {
+        "Creating an API Resource": {
+          "URL": "https://developers.linkapi.solutions/docs/creating-an-api-resource"
+        },
+        "Resource context": {
+          "URL": "https://developers.linkapi.solutions/docs/resource-context"
+        }
+      }
+    },
+    "API Documentation": {
+      "URL": "https://developers.linkapi.solutions/docs/api-documentation"
+    },
+    "Granting API Access": {
+      "URL": "https://developers.linkapi.solutions/docs/granting-api-access"
+    },
+    "API Trace": {
+      "URL": "https://developers.linkapi.solutions/docs/api-trace"
+    },
+    "Api Key Authentication": {
+      "URL": "https://developers.linkapi.solutions/docs/api-key-authentication"
+    },
+    "OAuth2 Authentication": {
+      "URL": "https://developers.linkapi.solutions/docs/oauth2-authentication"
+    },
+    "Basic Authentication": {
+      "URL": "https://developers.linkapi.solutions/docs/basic-authentication"
+    },
+    "None Authentication": {
+      "URL": "https://developers.linkapi.solutions/docs/authentication-none"
+    }
+  },
+  "PRE-BUILT COMPONENTS": {
+    "About Pre-Built Components": {
+      "URL": "https://developers.linkapi.solutions/docs/pre-built-components"
+    },
+    "Analytics Components": {
+      "URL": "https://developers.linkapi.solutions/docs/analytics",
+      "Subpages": {
+        "BuiltWith": {
+          "URL": "https://developers.linkapi.solutions/docs/builtwith"
+        },
+        "Clearbit": {
+          "URL": "https://developers.linkapi.solutions/docs/clearbit"
+        },
+        "Datanyze": {
+          "URL": "https://developers.linkapi.solutions/docs/datanyze"
+        },
+        "Google Analytics": {
+          "URL": "https://developers.linkapi.solutions/docs/googleanalytics"
+        },
+        "Mixpanel": {
+          "URL": "https://developers.linkapi.solutions/docs/mixpanel"
+        },
+        "Prontoforms": {
+          "URL": "https://developers.linkapi.solutions/docs/prontoforms"
+        },
+        "Salesforce Analytics": {
+          "URL": "https://developers.linkapi.solutions/docs/salesforceanalytics"
+        },
+        "SimilarTech": {
+          "URL": "https://developers.linkapi.solutions/docs/similartech"
+        },
+        "SurveyMonkey": {
+          "URL": "https://developers.linkapi.solutions/docs/surveymonkey"
+        },
+        "WhoIsXml": {
+          "URL": "https://developers.linkapi.solutions/docs/whoisxml"
+        },
+        "YouTube Analytics": {
+          "URL": "https://developers.linkapi.solutions/docs/youtubeanalytics"
+        }
+      }
+    },
+    "CRM Components": {
+      "URL": "https://developers.linkapi.solutions/docs/crm",
+      "Subpages": {
+        "Affinity": {
+          "URL": "https://developers.linkapi.solutions/docs/affinity"
+        },
+        "Agendor": {
+          "URL": "https://developers.linkapi.solutions/docs/agendor"
+        },
+        "Copper": {
+          "URL": "https://developers.linkapi.solutions/docs/copper"
+        },
+        "Exact Sales": {
+          "URL": "https://developers.linkapi.solutions/docs/exactsales"
+        },
+        "HubSpot": {
+          "URL": "https://developers.linkapi.solutions/docs/hubspot"
+        },
+        "Microsoft Dynamics": {
+          "URL": "https://developers.linkapi.solutions/docs/microsoftdynamics"
+        },
+        "Moskit": {
+          "URL": "https://developers.linkapi.solutions/docs/moskit"
+        },
+        "NetSuite": {
+          "URL": "https://developers.linkapi.solutions/docs/netsuite"
+        },
+        "Oracle Responsys Marketing Cloud": {
+          "URL": "https://developers.linkapi.solutions/docs/oracleresponsysmarketingcloud"
+        },
+        "Oracle Service Cloud": {
+          "URL": "https://developers.linkapi.solutions/docs/oracleservicecloud"
+        },
+        "Oracle Social Cloud": {
+          "URL": "https://developers.linkapi.solutions/docs/oraclesocialcloud"
+        },
+        "PersistIQ": {
+          "URL": "https://developers.linkapi.solutions/docs/persistiq"
+        },
+        "Pipedrive": {
+          "URL": "https://developers.linkapi.solutions/docs/pipedrive"
+        },
+        "Sugarcrm": {
+          "URL": "https://developers.linkapi.solutions/docs/sugarcrm"
+        },
+        "Vindi": {
+          "URL": "https://developers.linkapi.solutions/docs/vindi"
+        }
+      }
+    },
+    "Databases Components": {
+      "URL": "https://developers.linkapi.solutions/docs/databases-components",
+      "Subpages": {
+        "MongoDB": {
+          "URL": "https://developers.linkapi.solutions/docs/mongodb"
+        },
+        "MySQL NodeJS Connector": {
+          "URL": "https://developers.linkapi.solutions/docs/mysql-nodejs-connector"
+        },
+        "PostgreSQL": {
+          "URL": "https://developers.linkapi.solutions/docs/postgresql"
+        },
+        "SQL Server": {
+          "URL": "https://developers.linkapi.solutions/docs/sql-server"
+        }
+      }
+    },
+    "Developer Tools Components": {
+      "URL": "https://developers.linkapi.solutions/docs/dev-tools-components",
+      "Subpages": {
+        "Accel BaaS": {
+          "URL": "https://developers.linkapi.solutions/docs/accelbaas"
+        },
+        "Amazon S3": {
+          "URL": "https://developers.linkapi.solutions/docs/amazons3"
+        },
+        "Apify": {
+          "URL": "https://developers.linkapi.solutions/docs/apify"
+        },
+        "Back4App Tour Class": {
+          "URL": "https://developers.linkapi.solutions/docs/back4apptourclass"
+        },
+        "Bitbucket": {
+          "URL": "https://developers.linkapi.solutions/docs/bitbucket"
+        },
+        "GitHub": {
+          "URL": "https://developers.linkapi.solutions/docs/github"
+        },
+        "Google Cloud Storage": {
+          "URL": "https://developers.linkapi.solutions/docs/googlecloudstorage"
+        },
+        "Iugu": {
+          "URL": "https://developers.linkapi.solutions/docs/iugu"
+        },
+        "Netlify": {
+          "URL": "https://developers.linkapi.solutions/docs/netlify"
+        },
+        "New Relic": {
+          "URL": "https://developers.linkapi.solutions/docs/newrelic"
+        },
+        "Pingdom": {
+          "URL": "https://developers.linkapi.solutions/docs/pingdom"
+        },
+        "Postman": {
+          "URL": "https://developers.linkapi.solutions/docs/postman"
+        },
+        "Readme": {
+          "URL": "https://developers.linkapi.solutions/docs/readme"
+        },
+        "Scale AI": {
+          "URL": "https://developers.linkapi.solutions/docs/scaleai"
+        }
+      }
+    },
+    "E-Commerce Components": {
+      "URL": "https://developers.linkapi.solutions/docs/e-commerce",
+      "Subpages": {
+        "BetaLabs": {
+          "URL": "https://developers.linkapi.solutions/docs/betalabs"
+        },
+        "Cissa Magazine": {
+          "URL": "https://developers.linkapi.solutions/docs/cissamagazine"
+        },
+        "Elopage": {
+          "URL": "https://developers.linkapi.solutions/docs/elopage"
+        },
+        "iSet eCommerce": {
+          "URL": "https://developers.linkapi.solutions/docs/isetecommerce"
+        },
+        "LifeApps": {
+          "URL": "https://developers.linkapi.solutions/docs/lifeapps"
+        },
+        "Loja Integrada": {
+          "URL": "https://developers.linkapi.solutions/docs/lojaintegrada"
+        },
+        "Magento v1.9": {
+          "URL": "https://developers.linkapi.solutions/docs/magentov19"
+        },
+        "Magento v2": {
+          "URL": "https://developers.linkapi.solutions/docs/magento2"
+        },
+        "Ontraport": {
+          "URL": "https://developers.linkapi.solutions/docs/ontraport"
+        },
+        "Oracle Commerce Cloud Admin": {
+          "URL": "https://developers.linkapi.solutions/docs/oraclecommercecloudadmin"
+        },
+        "Oracle Commerce Cloud Agent": {
+          "URL": "https://developers.linkapi.solutions/docs/oraclecommercecloudagent"
+        },
+        "Selz": {
+          "URL": "https://developers.linkapi.solutions/docs/selz"
+        },
+        "Shopify": {
+          "URL": "https://developers.linkapi.solutions/docs/shopify"
+        },
+        "Vtex Catalog": {
+          "URL": "https://developers.linkapi.solutions/docs/vtexcatalog"
+        },
+        "Vtex Master Data v1": {
+          "URL": "https://developers.linkapi.solutions/docs/vtexmasterdatav1"
+        },
+        "Vtex Master Data v2": {
+          "URL": "https://developers.linkapi.solutions/docs/vtexmasterdatav2"
+        },
+        "Vtex OMS": {
+          "URL": "https://developers.linkapi.solutions/docs/vtexoms"
+        },
+        "WooCommerce": {
+          "URL": "https://developers.linkapi.solutions/docs/woocommerce"
+        },
+        "XTech": {
+          "URL": "https://developers.linkapi.solutions/docs/xtech"
+        }
+      }
+    },
+    "Email components": {
+      "URL": "https://developers.linkapi.solutions/docs/email-components",
+      "Subpages": {
+        "Autoklose": {
+          "URL": "https://developers.linkapi.solutions/docs/autoklose"
+        },
+        "AWeber": {
+          "URL": "https://developers.linkapi.solutions/docs/aweber"
+        },
+        "Front": {
+          "URL": "https://developers.linkapi.solutions/docs/front"
+        },
+        "Gmail": {
+          "URL": "https://developers.linkapi.solutions/docs/gmail"
+        },
+        "MailChimp": {
+          "URL": "https://developers.linkapi.solutions/docs/mailchimp"
+        },
+        "MailerLite": {
+          "URL": "https://developers.linkapi.solutions/docs/mailerlite"
+        },
+        "Moosend": {
+          "URL": "https://developers.linkapi.solutions/docs/moosend"
+        },
+        "NeverBounce": {
+          "URL": "https://developers.linkapi.solutions/docs/neverbounce"
+        },
+        "SendGrid": {
+          "URL": "https://developers.linkapi.solutions/docs/sendgrid"
+        },
+        "Smart Reach": {
+          "URL": "https://developers.linkapi.solutions/docs/smartreach"
+        },
+        "Sendinblue": {
+          "URL": "https://developers.linkapi.solutions/docs/sendinblue"
+        }
+      }
+    },
+    "ERP Components": {
+      "URL": "https://developers.linkapi.solutions/docs/erp",
+      "Subpages": {
+        "Bling": {
+          "URL": "https://developers.linkapi.solutions/docs/bling"
+        },
+        "BSeller": {
+          "URL": "https://developers.linkapi.solutions/docs/bseller"
+        },
+        "ContaAzul": {
+          "URL": "https://developers.linkapi.solutions/docs/contaazul"
+        },
+        "Eccosys": {
+          "URL": "https://developers.linkapi.solutions/docs/eccosys"
+        },
+        "Eive": {
+          "URL": "https://developers.linkapi.solutions/docs/eive"
+        },
+        "e-Millenium": {
+          "URL": "https://developers.linkapi.solutions/docs/emillennium"
+        },
+        "ERPFlex": {
+          "URL": "https://developers.linkapi.solutions/docs/erpflex"
+        },
+        "KPL": {
+          "URL": "https://developers.linkapi.solutions/docs/kpl"
+        },
+        "Microvix": {
+          "URL": "https://developers.linkapi.solutions/docs/microvix"
+        },
+        "Nexaas ID": {
+          "URL": "https://developers.linkapi.solutions/docs/nexaasid"
+        },
+        "Omie": {
+          "URL": "https://developers.linkapi.solutions/docs/omie"
+        },
+        "SapCloudProduct": {
+          "URL": "https://developers.linkapi.solutions/docs/sapcloudproduct"
+        },
+        "Tiny": {
+          "URL": "https://developers.linkapi.solutions/docs/tiny"
+        },
+        "TrackCash": {
+          "URL": "https://developers.linkapi.solutions/docs/trackcash"
+        },
+        "Yami Catalog": {
+          "URL": "https://developers.linkapi.solutions/docs/yamicatalog"
+        },
+        "Yami Pedido": {
+          "URL": "https://developers.linkapi.solutions/docs/yamipedido"
+        },
+        "Zuora": {
+          "URL": "https://developers.linkapi.solutions/docs/zuora"
+        }
+      }
+    },
+    "Event Management": {
+      "URL": "https://developers.linkapi.solutions/docs/event-management",
+      "Subpages": {
+        "Acuity Scheduling": {
+          "URL": "https://developers.linkapi.solutions/docs/acuityscheduling"
+        },
+        "Eventbrite": {
+          "URL": "https://developers.linkapi.solutions/docs/eventbrite"
+        },
+        "Eventzilla": {
+          "URL": "https://developers.linkapi.solutions/docs/eventzilla"
+        },
+        "Google Calendar": {
+          "URL": "https://developers.linkapi.solutions/docs/googlecalendar"
+        },
+        "Meetup": {
+          "URL": "https://developers.linkapi.solutions/docs/meetup"
+        },
+        "Outlook Events": {
+          "URL": "https://developers.linkapi.solutions/docs/outlookevents"
+        },
+        "Sympla": {
+          "URL": "https://developers.linkapi.solutions/docs/sympla"
+        }
+      }
+    },
+    "Financial Components": {
+      "URL": "https://developers.linkapi.solutions/docs/financial",
+      "Subpages": {
+        "FreshBooks": {
+          "URL": "https://developers.linkapi.solutions/docs/freshbooks"
+        },
+        "Konduto": {
+          "URL": "https://developers.linkapi.solutions/docs/konduto"
+        },
+        "Nexaas MyFinance": {
+          "URL": "https://developers.linkapi.solutions/docs/myfinance"
+        },
+        "PagSeguro": {
+          "URL": "https://developers.linkapi.solutions/docs/pagseguro"
+        }
+      }
+    },
+    "HR": {
+      "URL": "https://developers.linkapi.solutions/docs/dd",
+      "Subpages": {
+        "ADP": {
+          "URL": "https://developers.linkapi.solutions/docs/adp"
+        },
+        "Checkr": {
+          "URL": "https://developers.linkapi.solutions/docs/checkr"
+        },
+        "Google Hire": {
+          "URL": "https://developers.linkapi.solutions/docs/googlehire"
+        },
+        "Gupy": {
+          "URL": "https://developers.linkapi.solutions/docs/gupy"
+        }
+      }
+    },
+    "Logistics Components": {
+      "URL": "https://developers.linkapi.solutions/docs/logistics-components",
+      "Subpages": {
+        "Frete Rápido": {
+          "URL": "https://developers.linkapi.solutions/docs/freterapido"
+        },
+        "Intelipost": {
+          "URL": "https://developers.linkapi.solutions/docs/intelipost"
+        },
+        "Shippo": {
+          "URL": "https://developers.linkapi.solutions/docs/shippo"
+        },
+        "Vtex Logistics": {
+          "URL": "https://developers.linkapi.solutions/docs/vtexlogistics"
+        }
+      }
+    },
+    "Marketing Components": {
+      "URL": "https://developers.linkapi.solutions/docs/marketing",
+      "Subpages": {
+        "Facebook Ads": {
+          "URL": "https://developers.linkapi.solutions/docs/facebookads"
+        },
+        "Mautic": {
+          "URL": "https://developers.linkapi.solutions/docs/mautic"
+        },
+        "RD Station": {
+          "URL": "https://developers.linkapi.solutions/docs/rdstation"
+        },
+        "Rebrandly": {
+          "URL": "https://developers.linkapi.solutions/docs/rebrandly"
+        },
+        "Reply": {
+          "URL": "https://developers.linkapi.solutions/docs/reply"
+        },
+        "Salesforce Marketing Cloud": {
+          "URL": "https://developers.linkapi.solutions/docs/salesforcemarketingapi"
+        },
+        "StatSocial": {
+          "URL": "https://developers.linkapi.solutions/docs/statsocial"
+        }
+      }
+    },
+    "Marketplaces Components": {
+      "URL": "https://developers.linkapi.solutions/docs/marketplaces-components",
+      "Subpages": {
+        "B2W": {
+          "URL": "https://developers.linkapi.solutions/docs/b2w"
+        },
+        "Buscapé": {
+          "URL": "https://developers.linkapi.solutions/docs/buscape"
+        },
+        "Dafiti": {
+          "URL": "https://developers.linkapi.solutions/docs/dafiti"
+        },
+        "Google Flights": {
+          "URL": "https://developers.linkapi.solutions/docs/googleflights"
+        },
+        "Google Shopping": {
+          "URL": "https://developers.linkapi.solutions/docs/googleshopping"
+        },
+        "Magazine Luiza": {
+          "URL": "https://developers.linkapi.solutions/docs/magazineluiza"
+        },
+        "Martins Marketplace": {
+          "URL": "https://developers.linkapi.solutions/docs/martinscatalog"
+        },
+        "Martins Pedidos": {
+          "URL": "https://developers.linkapi.solutions/docs/martinspedidos"
+        },
+        "Netshoes": {
+          "URL": "https://developers.linkapi.solutions/docs/netshoes"
+        },
+        "SkyHub": {
+          "URL": "https://developers.linkapi.solutions/docs/skyhub"
+        },
+        "Ricardo Eletro": {
+          "URL": "https://developers.linkapi.solutions/docs/ricardoeletro"
+        },
+        "Via Varejo": {
+          "URL": "https://developers.linkapi.solutions/docs/viavarejo"
+        },
+        "Walmart": {
+          "URL": "https://developers.linkapi.solutions/docs/walmart"
+        }
+      }
+    },
+    "Payment processing Components": {
+      "URL": "https://developers.linkapi.solutions/docs/payment-processing-components",
+      "Subpages": {
+        "Boleto Simples": {
+          "URL": "https://developers.linkapi.solutions/docs/boletosimples"
+        },
+        "Cielo": {
+          "URL": "https://developers.linkapi.solutions/docs/cielo"
+        },
+        "Cielo Consulta": {
+          "URL": "https://developers.linkapi.solutions/docs/cieloconsulta"
+        },
+        "Chargify": {
+          "URL": "https://developers.linkapi.solutions/docs/chargify"
+        },
+        "Checkout.com": {
+          "URL": "https://developers.linkapi.solutions/docs/checkout"
+        },
+        "Mundipagg": {
+          "URL": "https://developers.linkapi.solutions/docs/mundipagg"
+        },
+        "Pagar.me": {
+          "URL": "https://developers.linkapi.solutions/docs/pagarme"
+        },
+        "PayMee": {
+          "URL": "https://developers.linkapi.solutions/docs/paymee"
+        },
+        "Paymill": {
+          "URL": "https://developers.linkapi.solutions/docs/paymill"
+        },
+        "Paypal": {
+          "URL": "https://developers.linkapi.solutions/docs/paypal"
+        },
+        "PicPay": {
+          "URL": "https://developers.linkapi.solutions/docs/picpay"
+        },
+        "Stripe": {
+          "URL": "https://developers.linkapi.solutions/docs/stripe"
+        },
+        "Wirecard": {
+          "URL": "https://developers.linkapi.solutions/docs/wirecard"
+        }
+      }
+    },
+    "POS Components": {
+      "URL": "https://developers.linkapi.solutions/docs/pos-components",
+      "Subpages": {
+        "Clover": {
+          "URL": "https://developers.linkapi.solutions/docs/clover"
+        },
+        "PDVend": {
+          "URL": "https://developers.linkapi.solutions/docs/pdvend"
+        }
+      }
+    },
+    "Productivity Components": {
+      "URL": "https://developers.linkapi.solutions/docs/productivity",
+      "Subpages": {
+        "Asana": {
+          "URL": "https://developers.linkapi.solutions/docs/asana"
+        },
+        "ClickSign": {
+          "URL": "https://developers.linkapi.solutions/docs/clicksign"
+        },
+        "Coda": {
+          "URL": "https://developers.linkapi.solutions/docs/coda"
+        },
+        "DocuSign": {
+          "URL": "https://developers.linkapi.solutions/docs/docusign"
+        },
+        "Dropbox": {
+          "URL": "https://developers.linkapi.solutions/docs/dropbox"
+        },
+        "Everhour": {
+          "URL": "https://developers.linkapi.solutions/docs/everhour"
+        },
+        "FTP": {
+          "URL": "https://developers.linkapi.solutions/docs/ftp"
+        },
+        "Flex.io": {
+          "URL": "https://developers.linkapi.solutions/docs/flexio"
+        },
+        "Google Contacts": {
+          "URL": "https://developers.linkapi.solutions/docs/googlecontacts"
+        },
+        "Google Docs": {
+          "URL": "https://developers.linkapi.solutions/docs/googledocs"
+        },
+        "Google Drive": {
+          "URL": "https://developers.linkapi.solutions/docs/googledrive"
+        },
+        "Google Sheets": {
+          "URL": "https://developers.linkapi.solutions/docs/googlesheets"
+        },
+        "HashTrack": {
+          "URL": "https://developers.linkapi.solutions/docs/hashtrack"
+        },
+        "JotForm": {
+          "URL": "https://developers.linkapi.solutions/docs/jotform"
+        },
+        "Mandrill": {
+          "URL": "https://developers.linkapi.solutions/docs/mandrill"
+        },
+        "Pipefy": {
+          "URL": "https://developers.linkapi.solutions/docs/pipefy"
+        },
+        "ProdPad": {
+          "URL": "https://developers.linkapi.solutions/docs/prodpad"
+        },
+        "Segment": {
+          "URL": "https://developers.linkapi.solutions/docs/segment"
+        },
+        "SignUpGenius": {
+          "URL": "https://developers.linkapi.solutions/docs/signupgenius"
+        },
+        "Slack": {
+          "URL": "https://developers.linkapi.solutions/docs/slack"
+        },
+        "Smartsheet": {
+          "URL": "https://developers.linkapi.solutions/docs/smartsheet"
+        },
+        "Trello": {
+          "URL": "https://developers.linkapi.solutions/docs/trello"
+        },
+        "TypeForm": {
+          "URL": "https://developers.linkapi.solutions/docs/typeform"
+        }
+      }
+    },
+    "SMS Components": {
+      "URL": "https://developers.linkapi.solutions/docs/sms-components",
+      "Subpages": {
+        "Twilio": {
+          "URL": "https://developers.linkapi.solutions/docs/twilio"
+        },
+        "Zenvia": {
+          "URL": "https://developers.linkapi.solutions/docs/zenvia"
+        }
+      }
+    },
+    "Social Components": {
+      "URL": "https://developers.linkapi.solutions/docs/social-components",
+      "Subpages": {
+        "Facebook": {
+          "URL": "https://developers.linkapi.solutions/docs/facebook"
+        },
+        "LinkedIn": {
+          "URL": "https://developers.linkapi.solutions/docs/linkedin"
+        },
+        "Youtube": {
+          "URL": "https://developers.linkapi.solutions/docs/youtube"
+        },
+        "Twitter": {
+          "URL": "https://developers.linkapi.solutions/docs/twitter"
+        }
+      }
+    },
+    "Support Components": {
+      "URL": "https://developers.linkapi.solutions/docs/support-components",
+      "Subpages": {
+        "Cliengo": {
+          "URL": "https://developers.linkapi.solutions/docs/cliengo"
+        },
+        "Freshdesk": {
+          "URL": "https://developers.linkapi.solutions/docs/freshdesk"
+        },
+        "Freshservice": {
+          "URL": "https://developers.linkapi.solutions/docs/freshservice"
+        },
+        "Intercom": {
+          "URL": "https://developers.linkapi.solutions/docs/intercom"
+        },
+        "Octadesk": {
+          "URL": "https://developers.linkapi.solutions/docs/octadesk"
+        },
+        "Teravoz": {
+          "URL": "https://developers.linkapi.solutions/docs/teravoz"
+        },
+        "Zendesk": {
+          "URL": "https://developers.linkapi.solutions/docs/zendesk"
+        }
+      }
+    },
+    "Other Components": {
+      "URL": "https://developers.linkapi.solutions/docs/other-components",
+      "Subpages": {
+        "Accredible Certificates": {
+          "URL": "https://developers.linkapi.solutions/docs/accrediblecertificates"
+        },
+        "Spotify": {
+          "URL": "https://developers.linkapi.solutions/docs/spotify"
+        },
+        "Thinkific": {
+          "URL": "https://developers.linkapi.solutions/docs/thinkific"
+        },
+        "Traccar": {
+          "URL": "https://developers.linkapi.solutions/docs/traccar"
+        }
+      }
+    }
+  },
+  "LINKAPI SDK": {
+    "About our SDK": {
+      "URL": "https://developers.linkapi.solutions/docs/about-our-sdk"
+    },
+    "Code Builder Snippets": {
+      "URL": "https://developers.linkapi.solutions/docs/code-builder-snippets"
+    },
+    "Connect to a MySQL Database": {
+      "URL": "https://developers.linkapi.solutions/docs/connect-to-a-mysql"
+    },
+    "Connect to a Oracle Database": {
+      "URL": "https://developers.linkapi.solutions/docs/connect-to-a-oracle-database"
+    },
+    "Connect to a SQL Server Database": {
+      "URL": "https://developers.linkapi.solutions/docs/conecto-to-a-sqlserver-database"
+    },
+    "Connect to a Amazon Redshift Database": {
+      "URL": "https://developers.linkapi.solutions/docs/connect-to-a-amazon-redshift-database"
+    },
+    "Connect to a Redis Database": {
+      "URL": "https://developers.linkapi.solutions/docs/connect-to-a-redis-database"
+    },
+    "Consume a Component Resource": {
+      "URL": "https://developers.linkapi.solutions/docs/consume"
+    },
+    "Connect to a PostgreSQL Database": {
+      "URL": "https://developers.linkapi.solutions/docs/connect-to-a-postgresql-database"
+    },
+    "Consume a Project Function": {
+      "URL": "https://developers.linkapi.solutions/docs/consume-a-project-function"
+    },
+    "Consume a Package Function": {
+      "URL": "https://developers.linkapi.solutions/docs/consume-a-package-function"
+    },
+    "Consume a Custom-Middleware": {
+      "URL": "https://developers.linkapi.solutions/docs/consume-a-custom-middleware"
+    },
+    "Consume a Data-Transformation": {
+      "URL": "https://developers.linkapi.solutions/docs/consume-a-data-transformation"
+    },
+    "Create a Gateway Trace": {
+      "URL": "https://developers.linkapi.solutions/docs/create-a-gateway-trace"
+    },
+    "Get a Component Credential": {
+      "URL": "https://developers.linkapi.solutions/docs/get-a-component-credential"
+    },
+    "Get, Set and Delete a FromTo": {
+      "URL": "https://developers.linkapi.solutions/docs/getset-a-fromto"
+    },
+    "Get a tenant": {
+      "URL": "https://developers.linkapi.solutions/docs/get-a-tenant"
+    },
+    "Make a HTTP Call": {
+      "URL": "https://developers.linkapi.solutions/docs/make-a-http-call"
+    },
+    "Parse JSON Data": {
+      "URL": "https://developers.linkapi.solutions/docs/parse-json-data"
+    },
+    "Parse XML Data": {
+      "URL": "https://developers.linkapi.solutions/docs/parse-xml-data"
+    },
+    "Parse CSV Data": {
+      "URL": "https://developers.linkapi.solutions/docs/parse-csv-data"
+    }
+  },
+  "LINKAPI CLI": {
+    "About our CLI": {
+      "URL": "https://developers.linkapi.solutions/docs/about-our-cli"
+    }
+  },
+  "LINKAPI USE CASES": {
+    "Business Intelligence": {
+      "URL": "https://developers.linkapi.solutions/docs/business-intelligence"
+    },
+    "Data Migration": {
+      "URL": "https://developers.linkapi.solutions/docs/data-migration"
+    },
+    "Data Sync": {
+      "URL": "https://developers.linkapi.solutions/docs/data-sync"
+    },
+    "Internet of Things": {
+      "URL": "https://developers.linkapi.solutions/docs/internet-of-things"
+    },
+    "SaaS": {
+      "URL": "https://developers.linkapi.solutions/docs/saas"
+    }
+  }
+}

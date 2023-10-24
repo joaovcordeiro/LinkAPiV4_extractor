@@ -2,62 +2,68 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
+import csv
 import time
-import re
+import json
+
 
 link_list = []
+teste_json = {}
 
-# instancia o webdriver para o Edge
-driver = webdriver.Edge()
+# Instancia o webdriver para o Edge
+with webdriver.Edge() as driver:
+    # Define a url que será acessada
+    url = "https://developers.linkapi.solutions/docs/documentation-intro"
 
-# define a url que será acessada
-url = "https://developers.linkapi.solutions/"
+    # Faz o acesso a url
+    driver.get(url)
 
-# faz o acesso a url
-driver.get(url)
+    # Espera até que o elemento seja visível
+    wait = WebDriverWait(driver, 10)
 
-# espera até que o elemento seja visível
-wait = WebDriverWait(driver, 10)
+    # Define o XPath para os elementos que serão acessados
+    section_path = '//*[@id="hub-sidebar"]/section'
 
-# defines o Xpath para os elemento que serão acessados
-intro_path = "//*[@id='content']/div[1]/div[1]/ul/li[1]/a"
-section_path = '//*[@id="hub-sidebar"]/section'
+    # Espera até que o elemento seja visível
+    section = wait.until(EC.visibility_of_element_located((By.XPATH, section_path)))
 
-# espera até que o elemento seja visível
-link = wait.until(EC.visibility_of_element_located((By.XPATH, intro_path)))
+    # Pega todos os elementos que estão dentro da section que possuem a tag <a>
+    # Encontra todos os elementos dentro da section que possuem as classes específicas
+    links = section.find_elements(By.CLASS_NAME, "Sidebar-list3cZWQLaBf9k8")
 
-# faz o click no elemento
-link.click()
+    for link_element in links:
+        classes = link_element.get_attribute("class")
 
-# espera até que o elemento seja visível
-section = wait.until(EC.visibility_of_element_located((By.XPATH, section_path)))
+        if classes and len(classes.split()) == 2:
+            h3_element = link_element.find_element(By.XPATH, "preceding::h3[1]")
+            h3_element_text = h3_element.text.strip()
+            first_children = link_element.find_elements(By.XPATH, "./*")
 
-# pega todos os elementos que estão dentro da section que possuem a tag <a>
-links = section.find_elements(By.TAG_NAME, "a")
+            teste_json[h3_element_text] = {}
+            for child in first_children:
+                first_child_url = child.find_element(By.XPATH, ".//a").get_attribute(
+                    "href"
+                )
+                first_child_name = child.get_attribute("innerText")
+                teste_json[h3_element_text].update(
+                    {first_child_name: {"URL": first_child_url}}
+                )
 
-dict = {}
+                second_children = child.find_elements(By.XPATH, ".//li")
+
+                if second_children:
+                    teste_json[h3_element_text][first_child_name]["Subpages"] = {}
+                    for second_child in second_children:
+                        second_child_url = second_child.find_element(
+                            By.XPATH, ".//a"
+                        ).get_attribute("href")
+                        second_child_name = second_child.get_attribute("innerText")
+
+                        teste_json[h3_element_text][first_child_name][
+                            "Subpages"
+                        ].update({second_child_name: {"URL": second_child_url}})
 
 
-for link_element in links:
-    # pega o atributo href do elemento
-    url = link_element.get_attribute("href")
-    # pega o texto que está dentro do elemento
-    spanText = link_element.get_attribute("innerText")
-
-    # adiciona o texto e o link em um dicionário
-    dict[spanText] = url
-
-    # adiciona o dicionário em uma lista
-    link_list.append(dict)
-
-# fecha o webdriver
-driver.quit()
-
-# remove o ultimo elemento da lista
-dict.pop("")
-
-# cria um arquivo csv e escreve o lista no arquivo
-with open("links.csv", "w") as file:
-    file.write("Page Name;URL\n")
-    for key in dict.keys():
-        file.write(key + ";" + dict[key] + "\n")
+with open("links.json", "w", encoding="utf-8") as json_file:
+    json.dump(teste_json, json_file, ensure_ascii=False, indent=2)
