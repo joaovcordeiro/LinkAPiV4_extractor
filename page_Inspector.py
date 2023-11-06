@@ -1,22 +1,15 @@
-import csv
+import os
+import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import os
-import re
+import json
 
 
-def obter_ultimo_arquivo(diretorio):
-    lista_de_arquivos = os.listdir(diretorio)
-    lista_de_arquivos = [
-        f for f in lista_de_arquivos if os.path.isfile(os.path.join(diretorio, f))
-    ]
-    lista_de_arquivos = sorted(
-        lista_de_arquivos,
-        key=lambda x: os.path.getctime(os.path.join(diretorio, x)),
-        reverse=True,
-    )
-    return lista_de_arquivos[0] if lista_de_arquivos else None
+with open("links.json", "r") as file:
+    links_dict = json.loads(file.read())
+    categories = links_dict.keys()
 
 
 def extrair_conteudo_e_salvar(url, nome_do_arquivo):
@@ -31,23 +24,44 @@ def extrair_conteudo_e_salvar(url, nome_do_arquivo):
         file.write(content.encode("utf-8"))
 
 
-# Diretório de saída
-diretorio_de_saida = "pages/"
+def processar_pagina(category, page, links_dict, path):
+    page_slug = links_dict[category][page]["URL"].split("/")[-1]
+    os.makedirs(os.path.join(path, category, page_slug), exist_ok=True)
+    extrair_conteudo_e_salvar(
+        links_dict[category][page]["URL"],
+        os.path.join(path, category, page_slug, f"{page_slug}.html"),
+    )
 
-# Verifica o último arquivo criado
-ultimo_arquivo = obter_ultimo_arquivo(diretorio_de_saida)
+    if len(links_dict[category][page]) != 1:
+        os.makedirs(os.path.join(path, category, page_slug, "subpages"), exist_ok=True)
+        for subpage in links_dict[category][page]["Subpages"]:
+            subpage_slug = links_dict[category][page]["Subpages"][subpage]["URL"].split(
+                "/"
+            )[-1]
+            extrair_conteudo_e_salvar(
+                links_dict[category][page]["Subpages"][subpage]["URL"],
+                os.path.join(
+                    path, category, page_slug, "subpages", f"{subpage_slug}.html"
+                ),
+            )
 
-with open("links.csv", "r") as file:
-    reader = csv.reader(file, delimiter=";")
-    next(reader)
 
-    for row in reader:
-        nome_da_pagina = re.sub(r"\W", "", row[0])
-        nome_do_arquivo = f"pages/{nome_da_pagina}.html"
+def main():
+    path = "./pages/"
+    os.makedirs(path, exist_ok=True)
 
-        # Verifica se o arquivo já existe
-        if nome_do_arquivo == ultimo_arquivo:
-            print(f"O arquivo {nome_do_arquivo} já existe. Pulando a extração.")
-            continue
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        for category in categories:
+            os.makedirs(os.path.join(path, category), exist_ok=True)
+            for page in links_dict[category]:
+                futures.append(
+                    executor.submit(processar_pagina, category, page, links_dict, path)
+                )
 
-        extrair_conteudo_e_salvar(row[1], nome_do_arquivo)
+        # Aguardar a conclusão de todas as tarefas
+        concurrent.futures.wait(futures)
+
+
+if __name__ == "__main__":
+    main()
